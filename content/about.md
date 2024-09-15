@@ -1,7 +1,6 @@
 +++
 title = "About"
 date = "2024-09-15"
-author = "rex"
 type = "page"
 +++
 
