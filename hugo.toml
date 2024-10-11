@@ -18,7 +18,7 @@ theme = "terminal"
     title = "blog"
 
     [languages.en.params]
-      subtitle = "A simple, retro theme for Hugo"
+      subtitle = "i have no idea what i'm doing"
       owner = ""
       keywords = ""
       copyright = ""
