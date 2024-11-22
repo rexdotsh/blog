@@ -11,7 +11,9 @@ theme = "terminal"
 [params]
     contentTypeName = "posts"
     centerTheme = true
+    autoCover = true
     dateFormat = "Jan 2, 2006"
+    showLastUpdated = false
 
 [languages]
   [languages.en]
