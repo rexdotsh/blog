@@ -11,6 +11,7 @@ theme = "terminal"
 [params]
     contentTypeName = "posts"
     centerTheme = true
+    dateFormat = "Jan 2, 2006"
 
 [languages]
   [languages.en]
