@@ -132,7 +132,7 @@ if __name__ == "__main__":
 
 ### Intro
 
-> The moves used for all the showcases in this writeup are using ones uploaded by the challenge author (@Alkalem) after the CTF ended. The same `moves.txt` is uploaded in it's entirety in this repository as well, in the `solution` directory. This can be used to replicate the solutions locally, along with `simulate_keystrokes.py`.
+> The moves used for all the showcases in this writeup are using ones uploaded by the challenge author (@Alkalem) after the CTF ended. The same `moves.txt` is uploaded in it's entirety in this repository as well, in the [`solution`](https://github.com/rexdotsh/ctf-writeups/tree/main/GPN%20CTF%202024/rev/parabox/solution) directory. This can be used to replicate the solutions locally, along with `simulate_keystrokes.py`.
 
 The game provides 3 intro levels, to get the player familiarized with the game. The objective of the game was pretty simple, you had to fulfil the level goals, usually by putting the golden coloured blocks in the correct positions, after which you could take the player to the winning tile. Below is a showcase of the solutions for the intro levels.
 
