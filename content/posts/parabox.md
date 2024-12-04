@@ -1,7 +1,7 @@
 +++
 title = "GPN CTF 2024 – Parabox"
 date = "2024-11-27"
-description = "A GameBoy challenge from GPN CTF 2024."
+description = "A GameBoy Reverse Engineering challenge from GPN CTF 2024."
 +++
 
 - **Category:** Reverse Engineering
