@@ -1,6 +1,8 @@
-baseurl = "/"
+baseurl = "https://blog.rex.wf"
 languageCode = "en-us"
 theme = "terminal"
+
+enableRobotsTXT = true
 
 [markup.goldmark.renderer]
   unsafe = true
@@ -14,6 +16,36 @@ theme = "terminal"
     autoCover = true
     dateFormat = "Jan 2, 2006"
     showLastUpdated = false
+    
+    description = "rex's blog"
+    keywords = ["blog", "tech", "programming", "ctf", "writeups"]
+    author = "rex"
+    
+    enableOpenGraph = true
+    images = ["/og-image.png"]
+    
+    enableTwitterCards = true
+    twitterSite = "@rexmkv"
+    twitterCreator = "@rexmkv"
+    twitterImage = "/og-image.png"
+    
+    enableCanonicalLinks = true
+    enableSchema = true
+    schemaType = "Person"
+    googleSiteVerification = ""
+
+    [params.sitemap]
+        changefreq = "weekly"
+        priority = 0.5
+        filename = "sitemap.xml"
+
+[outputs]
+    home = ["HTML", "RSS", "JSON", "SITEMAP"]
+
+[sitemap]
+    changefreq = "weekly"
+    filename = "sitemap.xml"
+    priority = 0.5
 
 [languages]
   [languages.en]
@@ -22,9 +54,8 @@ theme = "terminal"
 
     [languages.en.params]
       subtitle = "i have no idea what i'm doing"
-      owner = ""
-      keywords = ""
-      copyright = ""
+      owner = "rex"
+      keywords = "blog, tech, programming, personal"
       menuMore = "Show more"
       readMore = "Read more"
       readOtherPosts = "Read other posts"
@@ -39,8 +70,8 @@ theme = "terminal"
         logoText = "rex"
         logoHomeLink = "/"
 
-        [languages.en.menu]
-        [[languages.en.menu.main]]
-          identifier = "about"
-          name = "About"
-          url = "/about"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
