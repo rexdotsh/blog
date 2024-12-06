@@ -25,12 +25,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family:
-    "Fira Code",
-    Monaco,
-    Consolas,
-     "Ubuntu Mono",
-    monospace;
+  font-family: "Fira Code", Monaco, Consolas, "Ubuntu Mono", monospace;
   font-size: var(--font-size);
   font-weight: 400;
   line-height: var(--line-height);
@@ -55,18 +50,33 @@ h1 {
   text-underline-offset: calc(var(--font-size) * 0.2);
 }
 
-h1, h2 {
+h1,
+h2 {
   text-transform: uppercase;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-size: calc(var(--font-size) * 1.1);
   letter-spacing: 0.04em;
 }
 
-h1, h2, h3, h4, h5, h6,
-p, ul, ol,
-img, figure, video,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+img,
+figure,
+video,
 table {
   margin: calc(var(--line-height) * 1.2) 0;
 }
@@ -164,16 +174,9 @@ select:active {
 }
 
 select {
-  background-image: linear-gradient(
-      45deg,
-      transparent 50%,
-      var(--foreground) 50%
-    ),
-    linear-gradient(135deg, var(--foreground) 50%, transparent 50%);
+  background-image: linear-gradient(45deg, transparent 50%, var(--foreground) 50%), linear-gradient(135deg, var(--foreground) 50%, transparent 50%);
   background-position: calc(100% - 20px), calc(100% - 15px);
-  background-size:
-    5px 5px,
-    5px 5px;
+  background-size: 5px 5px, 5px 5px;
   background-repeat: no-repeat;
   padding-right: 40px;
 }
@@ -240,12 +243,7 @@ ol li {
 
 code,
 kbd {
-  font-family:
-    "Fira Code",
-    Monaco,
-    Consolas,
-    Ubuntu Mono,
-    monospace !important;
+  font-family: "Fira Code", Monaco, Consolas, Ubuntu Mono, monospace !important;
   font-feature-settings: normal;
   background: color-mix(in srgb, var(--foreground) 5%, transparent);
   color: color-mix(in srgb, var(--foreground) 5%, var(--accent));
@@ -367,8 +365,14 @@ hr {
 }
 
 /* Bold elements */
-h1, h2, h3, h4, h5, h6,
-b, strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong,
 th,
 button {
   font-weight: 600;
