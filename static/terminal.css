@@ -153,6 +153,9 @@ select {
 }
 
 input[type="checkbox"] {
+  vertical-align: middle;
+  padding: 10px;
+  box-shadow: inset 0 0 0 3px var(--background);
   width: auto;
 }
 
@@ -185,12 +188,6 @@ select option {
   background: var(--background);
 }
 
-input[type="checkbox"] {
-  vertical-align: middle;
-  padding: 10px;
-  box-shadow: inset 0 0 0 3px var(--background);
-}
-
 input[type="checkbox"]:checked {
   background: var(--accent);
 }
@@ -219,7 +216,6 @@ img {
   overflow: hidden;
   border: 4px solid var(--accent);
   border-radius: var(--radius);
-  padding: 4px;
   background: var(--background);
 }
 
@@ -316,6 +312,7 @@ pre code {
 
 sup {
   line-height: 0;
+  top: -0.25em;
 }
 
 abbr {
@@ -327,10 +324,6 @@ abbr {
 
 sub {
   bottom: -0.25em;
-}
-
-sup {
-  top: -0.25em;
 }
 
 mark {
