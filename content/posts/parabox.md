@@ -240,7 +240,7 @@ The player can access the third map/stage from the **level before** by loading a
 
 The fifth, and last level, was another one that we **thought** we solved without using any bugs in the code. I discovered the fact that you could access the green room, by glitching through the blue room pretty fast accidentally (which apparently was the bug), but couldn't figure out how to leave it. After a while, I realised that I could simply move the green box to an area where I could easily exit it, then glitch into it after entering the blue teleporter. Below is a showcase of the solution.
 
-{{< video src="https://github.com/rex69420/ctf-writeups/assets/65942753/8ccfb420-b5d7-4b92-a93e-82094400adfc" >}}   
+{{< video src="https://github.com/rex69420/ctf-writeups/assets/65942753/8ccfb420-b5d7-4b92-a93e-82094400adfc" >}}
 
 ---
 

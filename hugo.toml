@@ -18,6 +18,7 @@ enableRobotsTXT = true
     showLastUpdated = false
     
     description = "rex's blog"
+    footerText = "rex@unreal:~#"
     keywords = ["blog", "tech", "programming", "ctf", "writeups"]
     author = "rex"
     
@@ -40,7 +41,7 @@ enableRobotsTXT = true
         filename = "sitemap.xml"
 
 [outputs]
-    home = ["HTML", "RSS", "JSON", "SITEMAP"]
+    home = ["HTML", "RSS"]
 
 [sitemap]
     changefreq = "weekly"
@@ -75,3 +76,13 @@ enableRobotsTXT = true
         identifier = "about"
         name = "About"
         url = "/about"
+
+      [[languages.en.menu.main]]
+        identifier = "x"
+        name = "X"
+        url = "https://x.com/rexmkv"
+
+      [[languages.en.menu.main]]
+        identifier = "github"
+        name = "GitHub"
+        url = "https://github.com/rexmkv"
